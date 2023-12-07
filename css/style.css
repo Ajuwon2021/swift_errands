@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/******** Header Settings **********/
+.header {
+    background-color: #9663E1;
+    max-height: fit-content;
+    color: #ffffff;    
+}
+
+.header .nav-logo {
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
+.navbar-nav {
+    margin-right: 100px;
+}
+
+.nav-link {
+    margin-right: 30px;
+}
+
+.header .navbar-nav a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+} 
+
+.header .navbar-nav .active {
+    color: #FFA12C !important;
+}
+
