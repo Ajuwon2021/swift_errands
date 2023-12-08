@@ -83,57 +83,48 @@
     border: none;
 }
 
-.welcome .main_controls i {
-    margin: 560px 0px 50px;
-    align-items: center;
-    color: #ffffff;
+/* Custom CSS for Carousel Controls */
+.slide_controls {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 15px;
+    text-align: center;
     font-weight: bold;
     font-size: 25px;
-    background-color: rgba(152, 102, 227, 75%);
     cursor: pointer;
-    border: none;
-    width: 100px;
-    height: 40px;
 }
 
-.welcome .slide_controls .carousel-control-prev {
-    margin-left: 1000px;
-    padding: 7px;
-    
+.main_controls {
+    margin-right: 20px;
+    margin-left: 15px;       
 }
 
-.welcome .slide_controls .carousel-control-next {
-    margin-right: 50px;
-    padding: 7px;
+.main_controls .carousel-control-next {
+    margin-right: 20px;
+}
+
+.welcome .slide_controls i {
+    color: purple;
 }
 
 .welcome .slide_controls i:hover {
-    background-color: #FFA12C;
+    color: #FFA12C;
 }
 
-.welcome .card_1 {
-    margin-left: 50px;
-}
+/*****Settings for Cards****/
 
-.welcome .card-deck .card {
-    background-color: rgb(51, 166, 237, 40%);
-    height: fit-content;
-    word-wrap: break-word;
-    width: 280px;
-    margin-left: 100px;
-    margin-top: -50px;
-    z-index: 1;
-    color: #ffffff;
+.welcome .card {
+    background-color: transparent;
     text-align: center;
-    font-weight: bold;
 }
 
-.welcome .card_1 h5, .card_2 h5, .card_3 h5 {
-    color: #FFDD4C;
+.welcome .card h5 {
+    color: #32A4EC;
     font-weight: bolder;
 }
 
-.welcome .card-deck .card p {
+.welcome .card p {
     color: purple;
     font-weight: 400;
     margin-top: 20px;
@@ -144,16 +135,6 @@
     font-size: 70px;
     margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

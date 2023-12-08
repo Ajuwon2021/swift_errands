@@ -1,3 +1,42 @@
+@media (max-width: 768px) {
+    .slide_controls {   
+        right: 0;
+        text-align: center;
+        color: purple !important;
+        font-weight: bold;
+        font-size: 25px;
+        cursor: pointer;        
+    }
+
+
+    .main_controls {
+        margin-right: 20px;
+        margin-left: 15px;        
+    }
+
+    .main_controls .carousel-control-next {
+        margin-right: 20px;
+    }
+
+    .welcome .carousel-caption {
+    font-size: 10px;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    }
+
+    .welcome .carousel-caption p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .welcome .slide_1 {
+        color: #32A4EC;
+    }
+}
+
+
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) { 
   
