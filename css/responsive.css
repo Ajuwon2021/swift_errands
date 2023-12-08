@@ -33,6 +33,23 @@
     .welcome .slide_1 {
         color: #32A4EC;
     }
+
+    .about {
+    margin-top: 450px;
+    text-align: center;
+    background-color: aliceblue;
+    min-height: auto;
+    
+}
+
+.about p {
+    color: grey;
+    font-weight: bold;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
 }
 
 
