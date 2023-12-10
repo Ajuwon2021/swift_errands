@@ -42,12 +42,20 @@
     
 }
 
+.about .about_logo img {
+    margin-bottom: auto;
+}
+
 .about p {
     color: grey;
     font-weight: bold;
     margin: auto;
     padding-top: 20px;
     padding-bottom: 40px;
+}
+
+.services .col {
+    margin: auto;
 }
 
 }

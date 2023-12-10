@@ -14,7 +14,7 @@
     <body>
 
         <!--------------------------Header Section---------------------->
-        <section class="header container-fluid">
+        <section class="header container-fluid sticky-top">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand nav-logo" href="#">
@@ -128,12 +128,16 @@
             </section>
         </section>
 
-        <div id="about" class="about container-fluid">
+        <div id="about" class="about container">
             <div class="row mt-4">
                 <div class="about_title">
                     <h3>About Us</h3>
                 </div>            
                 <div class="col-md-6 about_desc">
+                    <div class="about_logo">
+                        <img src="./images/logo_2.png" alt="" srcset="">
+                    </div>
+                    
                     <p>
                         Swift Errands is passionate about simplifying your life, We specialize in handling your errands with precision and care.
                         From meticulously selecting groceries to sourcing household essentials, We're dedicated to providing efficient and reliable service. 
@@ -149,8 +153,204 @@
             </div>
         </div>
 
-            <!-- Boostrap script link -->
-        <script src="./js/bootstrap.bundle.min.js"></script>
+        <div id="services" class="services container">
+            <div class="row">
+                <div class="services_title">
+                    <h3>Our Services</h3>
+                </div>
 
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <i class="fas fa-shopping-cart"></i>
+                                <h5 class="card-title">Grocery Shopping</h5>
+                                <p class="card-text">
+                                    Expertly curating your grocery list for a seamless shopping experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>                
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <i class="fas fa-utensils"></i>
+                                <h5 class="card-title">Foodstuff Buying</h5>
+                                <p class="card-text">
+                                    Sourcing quality foodstuff to elevate your culinary delights.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <i class="fas fa-home"></i>
+                                <h5 class="card-title">Household Items Shopping</h5>
+                                <p class="card-text">
+                                    Providing convenience by handling your household essentials shopping
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <i class="fas fa-briefcase"></i>
+                                <h5 class="card-title">Office Toiletries Buying</h5>
+                                <p class="card-text">
+                                    Ensuring your workplace is well-stocked with essential toiletries.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <i class="fas fa-gift"></i>
+                                <h5 class="card-title">Party Souvenirs</h5>
+                                <p class="card-text">
+                                    Adding a touch of celebration with thoughtfully selected party souvenirs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="contact container">
+            <div class="row">
+                <div class="contact_title">
+                    <h3>Our Contacts</h3>
+                    <p>Please feel free to reachout to us</p>
+                </div>
+
+                <div class="col mb-6 social_contact">
+                    <ul>
+                        <li><i class="fab fa-facebook"></i><span class="fk_contact">Swift_errands@facebook.com</span></li>
+                        <li><i class="fab fa-twitter"></i><span class="twr_contact">Swift_errands@twitter.com</span></li>
+                        <li><i class="fas fa-envelope"></i><span class="email_contact">yvonnesolomon@gmail.com</span></li>
+                        <li><i class="fab fa-linkedin"></i><span class="lkn_contact">Swift_errands@linkedin.com</span></li>
+                        <li><i class="fab fa-instagram"></i><span class="ins_contact">Swift_errands@instagram.com</span></li>
+                        <li><i class="fab fa-whatsapp"></i><span class="wh_contact">+2348067863154</span></li>
+                        <li><i class="fas fa-phone-alt"></i><span class="ph_contact">08067863154, 08158779919</span></li>
+                        <li><i class="fas fa-map-marker-alt">
+                                <span class="addr_contact">
+                                    <p>
+                                        mytees event space, 1/3 Hafsat Tijani Street, Off Chairman Bust-Stop, Oga-Oloye  
+                                    Estate, Igbogbo/Bayeku Road, Ikorodu, Lagos State.
+                                    </p>
+                                </span>
+                            </i>
+                        </li>      
+                    </ul>
+                </div>
+
+                <div class="col mb-6 form_section">
+                    <div class="form_title">
+                            <h3>Message us</h3>
+                            <p>We will reply with haste</p>
+                    </div>
+                    <form action="">
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" id="fname" class="fname" placeholder="Tell us your first name">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" class="email" placeholder="Enter your valid email">
+                        <label for="message">Your Message</label>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Enter your message here..."></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer container-fluid">
+            <div class="row">
+                <div class="col mb-12 google_map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126834.05801193288!2d3.3521664000000015!3d6.576537600000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103befa26b8ed76f%3A0xaa982ef855971094!2sHASAO%20BIZ!5e0!3m2!1sen!2sng!4v1702179996567!5m2!1sen!2sng" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col mb-4 left_footer">
+                    <ul>
+                        <li> <a href="#home">Home</a></li>
+                        <li> <a href="#about">About</a></li>
+                        <li> <a href="acontact">Contact</a></li>
+                        <li> <a href="#services">Services</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col mb-4 middle_footer">
+                    <ul>
+                        <li> <a href="3">Gallery</a></li>
+                        <li> <a href="#">Reviews</a></li>
+                        <li> <a href="#">Get in Touch</a></li>
+                        <li> <a href="#">Chat with Us</a></li>
+                    </ul>
+                </div>
+                <div class="col mb-4 right_footer">
+                    <div class="row">
+                        <ul class="row_1 col mb-6">
+                        <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-phone-alt"></i></a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+
+                    <ul class="row_2 col mb-6">
+                        <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fas fa-map-marker-alt"></i></a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_right">
+                <p>&copy; 2023 Swift Errands | Made by <a href="#">Brim-Tech Concepts</a></p>
+            </div>
+        </div>
+        <!-- Boostrap script link -->
+        <script src="./js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

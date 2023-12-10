@@ -138,11 +138,15 @@
 
 /*************About Us*****************/
 .about {
-    margin: 300px;
+    margin-top: 300px;
     text-align: center;
-    background-color: aliceblue;
-    min-height: auto;
+    background-color: aliceblue;    
+}
 
+.about_logo img {
+    height: 200px ;
+    border-radius: 50%;
+    margin: 30px 0 -30px;
 }
 
 .about .about_title {
@@ -165,24 +169,174 @@
     text-align: center;
     color: #9663E1;
     margin-top: 20px;
-    margin-bottom: 10px;
 }
 
 .about .about_profile p {
     text-align: center;
     color: #32A4EC;
-    margin-top: 20px;
+    margin: auto;
+}
+
+.about .about_profile img {
+    margin-top: 30px;
+}
+
+/*******Service Settings************/
+#services {
+    background-color: transparent;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.services .services_title {
+    background-color: rgba(175, 171, 171, 45%);
+    color: purple;
+    padding: 20px;
     margin-bottom: 40px;
 }
 
+.services .col i {
+    color: #32A4EC;
+    font-size: 50px;
+    margin: 20px; 
+}
+
+.services .col h5 {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.services .col p {
+    margin: 10px;
+    font-weight: 500;
+}
+
+/**************Our Contact****************/
+.contact .contact_title {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #FFA12C;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.contact .social_contact {
+    margin: auto;
+    right: 0;
+    left: 0;
+    color: #9663E1;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.contact .social_contact ul li {
+    display: block;
+    list-style: none;
+    line-height: 2;
+}
+
+.contact .social_contact span {
+    margin-left: 50px;
+    
+}
+
+.contact .social_contact .addr_contact p {
+    margin-left: 70px;
+    margin-top: -18px;
+}
+
+.contact .form_title {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.contact .form_section {
+    background-color: #9663E1;
+    border-radius: 20px;
+    height: 500px;
+    margin-bottom: 40px;
+}
+
+.form_section form input {
+    display: block;
+    margin-left: 200px;
+    padding: 4px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+}
+
+.form_section form .fname {
+    margin-top: -25px;
+    margin-bottom: 25px;
+}
+
+.form_section form .email {
+    margin-top: -25px;
+    margin-bottom: 20px;
+}
+
+.form_section form textarea {
+    display: block;
+    margin-left: 200px;
+    margin-top: -20px;
+    padding: 4px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+}
+
+.form_section form label {
+    color: #ffffff;
+    margin-left: 50px;
+}
+
+.form_section form input::placeholder, textarea::placeholder {
+    color: #dbdbdb;
+    padding: 20px;
+}
+
+/******************Footer settings*************/
+.footer {
+    min-height: fit-content;
+    background-color: #FFA12C;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 70px;
+    line-height: 2;
+}
+
+.left_footer ul {
+    height: 200px;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.middle_footer ul {
+    height: 200px;
+    list-style: none;
+    margin-top: 30px;
+}
 
 
+.right_footer ul {
+    list-style: none;
+    margin-top: 30px;
+}
 
+.right_footer .row_1 a, .row_2 a {
+    font-size: 30px;
+}
 
-
-
-
-
-
-
-
+.footer_right {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bolder;
+}
