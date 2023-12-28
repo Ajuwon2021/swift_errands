@@ -1,0 +1,95 @@
+/******** Header Settings **********/
+/* Media Queries for Header */
+@media (max-width: 767px) {
+  .header .navbar-nav {
+    margin-right: 0;
+  }
+
+  .header .nav-link {
+    margin-right: 15px;
+  }
+
+  .call_us a {
+    margin-right: 15px;
+    font-size: 16px;
+  }
+}
+
+/***********Welcome section settings********/
+/* Media Queries for Welcome Section */
+@media (max-width: 767px) {
+  .welcome {
+    height: auto;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .welcome .carousel-caption {
+    width: 80%;
+  }
+}
+
+/*************About Us*****************/
+/* Media Queries for About Section */
+@media (max-width: 767px) {
+  .about {
+    margin-top: 50px;
+  }
+
+  .about .about_desc .staffs_0 h4,
+  .about .about_desc .staffs_0 p,
+  .about .about_profile h4,
+  .about .about_profile p {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
+/*******Service Settings************/
+/* Media Queries for Services Section */
+@media (max-width: 767px) {
+  #services {
+    margin-top: 50px;
+  }
+}
+
+/**************Our Contact****************/
+/* Media Queries for Contact Section */
+@media (max-width: 767px) {
+  .contact {
+    margin-top: 50px;
+  }
+
+  .contact .social_contact,
+  .contact .form_section {
+    margin: 20px;
+  }
+
+  .form_section form input,
+  .form_section form textarea {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .form_section form label {
+    margin-left: 0;
+  }
+}
+
+/******************Footer settings*************/
+/* Media Queries for Footer Section */
+@media (max-width: 767px) {
+  .footer a {
+    margin-left: 0;
+  }
+
+  .left_footer ul,
+  .middle_footer ul {
+    height: auto;
+  }
+
+  .right_footer .row_1 a,
+  .right_footer .row_2 a {
+    font-size: 24px;
+  }
+}

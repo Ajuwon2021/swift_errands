@@ -1,4 +1,18 @@
-@media (max-width: 768px) {
+/* Default styling for larger screens */
+.about .about_desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.about .about_desc .staffs_0 {
+    order: 1;
+}
+
+.about .vission_miss {
+    order: 2;
+}
+
+/*@media (max-width: 768px) {
     .slide_controls {   
         right: 0;
         text-align: center;
@@ -59,7 +73,7 @@
 }
 
 }
-
+*/
 
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -83,7 +97,7 @@
  }
 
 /*For Mobile devices */
-@media (max-width: 320px) { 
+@media (max-width: 375px) { 
     .header {
         height: 50px;
     }
@@ -124,15 +138,32 @@
     }
 
     .about {
-        margin-top: 750px !important;
+        margin-top: 100px !important;
     }
 
     .about_title {
-        height: 70px !important;
+        height: 60px !important;
+        margin-bottom: 10px;
+    }
+
+    .about_details {
+        margin-top: 20px;
+    }
+
+    .about .about_desc .staffs_0, .about .about_desc .staffs_0 p, h4 {
+        margin: auto !important;
+    }
+
+     .about .about_desc {
+        flex-direction: column;
     }
 
     .about .about_desc .staffs_0 {
-        margin: auto;
+        order: 2;
+    }
+
+    .about .vission_miss {
+        order: 1;
     }
 
     .about .vission_miss {
@@ -140,8 +171,8 @@
     }
 
     .about .about_profile {
-        margin-top: -1800px;
-        margin-bottom: 200px;
+        margin-top: 20px;
+        margin-bottom: 50px;
     }
 
     .about .about_profile .staffs_2, .about .about_profile .staffs_3, .about .about_profile .staffs_4 {
@@ -154,12 +185,38 @@
     }
 
     .about .vission_miss {
-        margin-left: auto !important;
+        margin-top: 0px !important;
     }
 
     .about .vission_miss ul {
         max-width: 300px !important;
         margin-top: 30px;
+    }
+
+    .about .about_desc .vission_miss .miss_title {
+        text-align: justify;
+        background-color: transparent;
+        color: #FFA12c;
+    }
+
+    .about_title p {
+        display: none;
+    }
+
+    .about_title_2 {
+        display: block !important;
+    }
+
+    .about_title_2 {
+        margin-top: 50px;
+        margin-bottom: -30px;
+        font-size: larger;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .about img {
+        margin-bottom: 20px;
     }
 
     .services {
@@ -222,21 +279,6 @@
 
     .footer .google_map iframe {
         max-height: 300px !important;
-    }
-
-    .footer .right_footer {
-        width: 100%;
-    }
-    
-
-    .footer .middle_footer {
-        margin-left: -100px;
-        margin-top: -50px !important;
-    }
-
-    .footer .left_footer {
-        margin-left: -50px;
-        margin-top: -50px !important;
     }
 
     .footer .footer_right p, .footer .footer_right .copy_tech a {
