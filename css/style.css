@@ -5,10 +5,14 @@
     box-sizing: border-box;
 }
 
+a:hover {
+    color: #FFA12C !important;
+}
+
 
 /******** Header Settings **********/
 .header {
-    background-color: #9663E1;
+    background-color: #1C203C;
     max-height: fit-content;
     color: #ffffff;    
 }
@@ -102,14 +106,28 @@
 
 .main_controls .carousel-control-next {
     margin-right: 20px;
+    padding-top: 10px;
+    width: 50px;
+    height: 45px;
+}
+
+.main_controls .carousel-control-prev {
+    margin-left: -70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50px;
+    height: 45px;
+    text-align: center;
 }
 
 .welcome .slide_controls i {
-    color: purple;
+    color: #ffffff;
+    background-color: #1C203C;
+    
 }
 
 .welcome .slide_controls i:hover {
-    color: #FFA12C;
+    color: #FFA12C !important;
 }
 
 /*****Settings for Cards****/
@@ -117,6 +135,7 @@
 .welcome .card {
     background-color: transparent;
     text-align: center;
+    margin-top: 50px;
 }
 
 .welcome .card h5 {
@@ -138,7 +157,8 @@
 
 /*************About Us*****************/
 .about {
-    margin-top: 300px;
+    margin-top: 350px;
+    margin-bottom: 70px;
     text-align: center;
     background-color: aliceblue;    
 }
@@ -150,19 +170,33 @@
 }
 
 .about .about_title {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    color: #ffffff;
-    background-color: #9663E1;
-    padding: 10px;
+    background-color: rgba(175, 171, 171, 45%);
+    color: purple;
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
-.about p {
-    text-align: justify;
+.about .about_details {
+    text-align: center;
     color: grey;
     font-weight: bold;
-    width: 70%;
-    margin: 80px 0px 100px 100px;
+}
+
+.about .about_desc .staffs_0 h4 {
+    text-align: center;
+    color: #9663E1;
+    margin-top: 20px;
+    margin-left: 70px;
+    width: max-content;
+}
+
+.about .about_desc .staffs_0 p {
+    text-align: center;
+    color: #32A4EC;
+    margin-top: 5px;
+    margin-left: 110px;
+    width: max-content;
 }
 
 .about .about_profile h4 {
@@ -177,14 +211,67 @@
     margin: auto;
 }
 
-.about .about_profile img {
-    margin-top: 30px;
+.about .about_desc .staffs_0 {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.about .about_profile .staffs_2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: -220px;
+}
+
+.about .about_profile .staffs_3 {
+    margin-top: -150px;
+    margin-left: 520px;
+}
+
+.about .about_profile .staffs_4 {
+    margin-top: -150px;
+    margin-left: -220px;
+    margin-bottom: 50px;
+    border-radius: 80%;
+}
+
+.about .about_desc .staffs_0:hover {
+    background-color: #1C203C !important;
+}
+
+.about .about_desc .vission_miss {
+    margin-left: 80px;
+    width: 100%;
+    max-width: max-content;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about .about_desc .vission_miss .miss_title {
+    background-color: #FFA12C;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    color: #ffffff;
+    margin-left: -50px;
+}
+
+.about .about_desc .vission_miss ul {
+    list-style-type: none;
+    font-weight: bolder;
+    margin-left: -50px;
+}
+
+.about .about_desc .vission_miss p {
+    text-align: justify;
+    color: darkgray;
+    font-weight: bold;
+    margin-left: -30px;
 }
 
 /*******Service Settings************/
 #services {
     background-color: transparent;
-    margin-top: 40px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -212,19 +299,23 @@
 }
 
 /**************Our Contact****************/
+.contact {
+    margin-top: 50px;
+}
+
 .contact .contact_title {
-    text-align: center;
-    margin-top: 40px;
-    background-color: #FFA12C;
+    background-color: rgba(175, 171, 171, 45%);
+    color: purple;
+    padding: 20px;
     margin-bottom: 40px;
-    color: #ffffff;
+    text-align: center;
 }
 
 .contact .social_contact {
     margin: auto;
     right: 0;
     left: 0;
-    color: #9663E1;
+    color: #1C203C;
     font-weight: bolder;
     font-size: 20px;
 }
@@ -252,7 +343,7 @@
 }
 
 .contact .form_section {
-    background-color: #9663E1;
+    background-color: #1C203C;
     border-radius: 20px;
     height: 500px;
     margin-bottom: 40px;
@@ -300,7 +391,14 @@
 /******************Footer settings*************/
 .footer {
     min-height: fit-content;
-    background-color: #FFA12C;
+    background-color: #1C203C;
+    margin-top: 50px;
+}
+
+.footer .street_map {
+        margin: auto;
+        width: 100%;
+        padding-top: 50px;
 }
 
 .footer a {
@@ -324,7 +422,6 @@
     margin-top: 30px;
 }
 
-
 .right_footer ul {
     list-style: none;
     margin-top: 30px;
@@ -339,4 +436,9 @@
     font-size: 14px;
     color: #ffffff;
     font-weight: bolder;
+}
+
+.copy_tech a {
+ margin-left: 0;
+ font-size: medium;
 }
