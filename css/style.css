@@ -315,13 +315,14 @@ a:hover {
     text-align: center;
 }
 
-.contact .social_contact {
+.contact .social_contact li a {
     margin: auto;
     right: 0;
     left: 0;
     color: #1C203C;
     font-weight: bolder;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .contact .social_contact ul li {
@@ -330,14 +331,19 @@ a:hover {
     line-height: 2;
 }
 
-.contact .social_contact span {
-    margin-left: 50px;
+.contact .social_contact .cont_text {
+    margin-left: 25px;
     
 }
 
 .contact .social_contact .addr_contact p {
-    margin-left: 70px;
-    margin-top: -18px;
+    margin-left: 40px;
+    margin-top: -15px;
+}
+
+.contact .social_contact .fa-map-marker-alt {
+    margin-top: 10px;
+    font-size: 15px !important;
 }
 
 .contact .form_title {
@@ -349,7 +355,7 @@ a:hover {
 .contact .form_section {
     background-color: #1C203C;
     border-radius: 20px;
-    height: 500px;
+    height: 550px;
     margin-bottom: 40px;
 }
 
@@ -392,6 +398,21 @@ a:hover {
     padding: 20px;
 }
 
+form .sim-btn {
+    background-color: #ffffff;
+    color: #1C203C;
+    font-weight: 800;
+    padding: 7px 50px;
+    margin: 20px 0px 0px 120px;
+    border: none;
+    border-radius: 10px;
+}
+
+form .sim-btn:hover {
+    background-color: #FFA12C;
+    color: #ffffff;
+}
+
 /******************Footer settings*************/
 .footer {
     min-height: fit-content;
@@ -400,9 +421,13 @@ a:hover {
 }
 
 .footer .street_map {
-        margin: auto;
-        width: 100%;
-        padding-top: 50px;
+    margin: auto;
+    width: 100%;
+    padding-top: 50px;    
+}
+
+.footer .street_map iframe {
+    border: none !important;
 }
 
 .footer a {
@@ -414,35 +439,32 @@ a:hover {
     line-height: 2;
 }
 
-.left_footer ul {
+.footer .footer_card .card{
+    background-color: transparent !important;
+    border: none;
+}
+
+.footer .footer_card ul {
     height: 200px;
     list-style: none;
     margin-top: 30px;
 }
 
-.middle_footer ul {
-    height: 200px;
-    list-style: none;
-    margin-top: 30px;
+.footer .footer_card ul a {
+    font-size: 20px;
 }
 
-.right_footer ul {
-    list-style: none;
-    margin-top: 30px;
+.footer .footer_card ul a {
+    font-size: 20px;
 }
-
-.right_footer .row_1 a, .row_2 a {
-    font-size: 30px;
-}
-
 .footer_right {
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     color: #ffffff;
     font-weight: bolder;
 }
 
 .copy_tech a {
  margin-left: 0;
- font-size: medium;
+ font-size: 18px;
 }
