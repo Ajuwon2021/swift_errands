@@ -247,5 +247,13 @@
 
 /* Laptops and Desktops (1200px and above) */
 @media only screen and (min-width: 1200px) {
+    .footer_order_1 {
+        margin-right: auto;
+        float: left;
+    }
     
+    .footer_order_2 {
+        margin-left: auto;
+        float: left;
+    }
 }
