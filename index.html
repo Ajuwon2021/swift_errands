@@ -1,392 +1,418 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Swift Errands</title>
 
-        <link rel="shortcut icon" href="./images/logo_1.png" type="image/x-icon">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <link rel="stylesheet" href="./icons/css/all.css">
-        <link rel="stylesheet" href="./css/custom_responsive.css">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swift Errands</title>
 
-        <!--------------------------Header Section---------------------->
-        <section class="header container-fluid sticky-top">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <a class="navbar-brand nav-logo" href="#">
-                        <img src="./images/logo_1.png" alt="Swift Errands Logo" srcset="" width="180px" height="180px">
-                    </a>
-            
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav ms-auto">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link" href="#about">About</a>
-                            <a class="nav-link" href="#services">Services</a>
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </div>
+    <link rel="shortcut icon" href="./images/logo_1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./icons/css/all.css">
+    <link rel="stylesheet" href="./css/custom_responsive.css">
+</head>
+
+<body>
+
+    <!--------------------------Header Section---------------------->
+    <section class="header container-fluid sticky-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand nav-logo" href="#">
+                    <img src="./images/logo_1.png" alt="Swift Errands Logo" srcset="" width="180px" height="180px">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </div>
+                </div>
 
-                    <div class="call_us collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <a class="call_text" href="tel:+234 806 7863 154">
-                            <i class="fas fa-phone-alt">
+                <div class="call_us collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <a class="call_text" href="tel:+234 806 7863 154">
+                        <i class="fas fa-phone-alt">
                             <span class="call_num">+234 806 7863 154</span>
-                            </i>
-                        </a>
-                        
-                    </div>
-                </div>
-            </nav>
-        </section>
+                        </i>
+                    </a>
 
-        <!------------------Welcome board------------------>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!------------------Welcome board------------------>
     <section class="welcome container-fluid">
-            <div class="row">
-                <div class="col">
-                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./images/lady.png" class="d-block w-100" alt="...">
-                                <div class="slide_1 carousel-caption d-md-block">
-                                    <h5>Efficient Delivery Service at Your Fingertips</h5>
-                                    <p>"Share with us, send your requests, and make use of our services."</p>
-                                </div>
-                            </div>
-                            
-                            <div class="carousel-item">
-                                <img src="./images/shop-kit.png" class="d-block w-100" alt="...">
-                                <div class="slide_2 carousel-caption d-md-block">
-                                    <h5>Efficient Delivery Service at Finger Tips</h5>
-                                    <p>"Swift Errands ensures prompt and secure package deliveries"</p>
-                                </div>
-                            </div>
-                            
-                            <div class="carousel-item">
-                                <img src="./images/shop.png" class="d-block w-100" alt="...">
-                                <div class="slide_3 carousel-caption d-md-block">
-                                    <h5>Efficient Delivery Service at Finger Tips</h5>
-                                    <p>"Experience hassle-free and reliable service with our dedicated team"</p>
-                                </div>
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/lady.png" class="d-block w-100" alt="...">
+                            <div class="slide_1 carousel-caption d-md-block">
+                                <h5>Efficient Delivery Service at Your Fingertips</h5>
+                                <p>"Share with us, send your requests, and make use of our services."</p>
                             </div>
                         </div>
-                        
-                        <div class="slide_controls">
-                            <span class="main_controls">
-                                <i class="fas fa-long-arrow-alt-left fas-7x carousel-control-prev" role="href" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"></i>
-                            </span>
 
-                            <span class="main_controls">
-                                <i class="fas fa-long-arrow-alt-right fas-7x carousel-control-next" role="href" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"></i>
-                            </span>
+                        <div class="carousel-item">
+                            <img src="./images/shop-kit.png" class="d-block w-100" alt="...">
+                            <div class="slide_2 carousel-caption d-md-block">
+                                <h5>Efficient Delivery Service at Finger Tips</h5>
+                                <p>"Swift Errands ensures prompt and secure package deliveries"</p>
+                            </div>
                         </div>
+
+                        <div class="carousel-item">
+                            <img src="./images/shop.png" class="d-block w-100" alt="...">
+                            <div class="slide_3 carousel-caption d-md-block">
+                                <h5>Efficient Delivery Service at Finger Tips</h5>
+                                <p>"Experience hassle-free and reliable service with our dedicated team"</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide_controls">
+                        <span class="main_controls">
+                            <i class="fas fa-long-arrow-alt-left fas-7x carousel-control-prev" role="href"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"></i>
+                        </span>
+
+                        <span class="main_controls">
+                            <i class="fas fa-long-arrow-alt-right fas-7x carousel-control-next" role="href"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="next"></i>
+                        </span>
                     </div>
                 </div>
             </div>
-            <section class="container">
-                <div class="row mt-4">
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <i class="far fa-clock"></i>
-                                <h5 class="card-title">Dependable and Swift</h5>
-                                <p class="card-text">In a world where time is of the essence, our errand service stands out for its dependability and speed. From grocery runs to quick deliveries, count on us to be reliable and efficient, giving you back precious time.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <i class="fas fa-handshake"></i>
-                                <h5 class="card-title">Personalized Trust</h5>
-                                <p class="card-text">Our errand service is all about personalized care and trust. Tailoring our assistance to your unique needs, we prioritize building a relationship of trust. Whether it's delicate deliveries or intricate tasks, your satisfaction is our focus.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <i class="fas fa-briefcase"></i>
-                                <h5 class="card-title">Professional and Honest</h5>
-                                <p class="card-text">We pride ourselves on professionalism and honesty. Every task is approached with a high level of professionalism, ensuring clear communication and responsible practices. Choose us for errands executed with integrity.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </section>
-
-        <div id="about" class="about container">
+        </div>
+        <section class="container">
             <div class="row mt-4">
-                <div class="about_title">
-                    <h3>About Us</h3>
-                    <p class="about_details">Meet our team of proffessionals</p>
-                </div>            
-                
-                <div class="col-md-3 about_desc">
-                    <div class="staffs_0">
-                        <img src="./images/profile-pic_5.png" alt="" srcset="" width="300">
-                        <h4>Nike Blessing</h4>
-                        <p>C. E. O</p>
-                    </div>
-                    <div class="vission_miss">
-                        <h4 class="miss_title">Vission Statements</h4>
-                        <ul>
-                            <li>Safety and Security Vission
-                                <p>To create an inclusive and accessible errand service, ensuring that everyone, regardless of ability or background, can benefit from our assistance.</p>
-                            </li>
-
-                            <li>Time-Saving Vision
-                                <p>To be the ultimate time-saving solution, helping our clients reclaim valuable time by efficiently handling their errands and tasks.</p>
-                            </li>
-
-                            <li>Safety and Security Vision</li>
-                            <p>To prioritize the safety and security of our clients and their belongings, ensuring a trustworthy and secure experience with every errand.</p>
-                            <li>Global Expansion Vision</li>
-                            <p>To expand our errand services globally, connecting people across borders and cultures through a seamless and reliable platform.</p>
-                        </ul>
-
-                        <div class="about_title_2">
-                            <p class="about_details">Meet our team of proffessionals</p>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="far fa-clock"></i>
+                            <h5 class="card-title">Dependable and Swift</h5>
+                            <p class="card-text">In a world where time is of the essence, our errand service stands out
+                                for its dependability and speed. From grocery runs to quick deliveries, count on us to
+                                be reliable and efficient, giving you back precious time.</p>
                         </div>
-                    </div>
-                    
-                    
-                </div>
-                <div class="col-md-9 about_profile">
-                    <div class="staffs_2">
-                        <img src="./images/profile_pics.png" alt="" srcset="" width="300">
-                        <h4>Folarin Ajuwon</h4>
-                        <p>Chief Accountant</p>
-                    </div>
-                    <div class="staffs_3">
-                        <img src="./images/analyst.png" alt="" srcset="" width="300">
-                        <h4>Nike Blessing</h4>
-                        <p>Sourcing Analyst</p>
-                    </div>
-                    <div class="staffs_4">
-                        <img src="./images/logistics.png" alt="" srcset="" width="300">
-                        <h4>Temilola Busari</h4>
-                        <p>Logistics Manager</p>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <div id="services" class="services container">
-            <div class="row">
-                <div class="services_title">
-                    <h3>Our Services</h3>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-handshake"></i>
+                            <h5 class="card-title">Personalized Trust</h5>
+                            <p class="card-text">Our errand service is all about personalized care and trust. Tailoring
+                                our assistance to your unique needs, we prioritize building a relationship of trust.
+                                Whether it's delicate deliveries or intricate tasks, your satisfaction is our focus.</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="row row_card row-cols-1 row-cols-md-3">
-                    <div class="col mb-4">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <i class="fas fa-shopping-cart"></i>
-                                <h5 class="card-title">Grocery Shopping</h5>
-                                <p class="card-text">
-                                    Expertly curating your grocery list for a seamless shopping experience.
-                                </p>
-                            </div>
-                        </div>
-                    </div>                
-                    <div class="col mb-4">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <i class="fas fa-utensils"></i>
-                                <h5 class="card-title">Foodstuff Buying</h5>
-                                <p class="card-text">
-                                    Sourcing quality foodstuff to elevate your culinary delights.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-4">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <i class="fas fa-home"></i>
-                                <h5 class="card-title">Household Items Shopping</h5>
-                                <p class="card-text">
-                                    Providing convenience by handling your household essentials shopping
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-4">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <i class="fas fa-briefcase"></i>
-                                <h5 class="card-title">Office Items</h5>
-                                <p class="card-text">
-                                    Supplying essential office items to keep your workspace efficient and well-equipped.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-4">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <i class="fas fa-gift"></i>
-                                <h5 class="card-title">Party Souvenirs</h5>
-                                <p class="card-text">
-                                    Adding a touch of celebration with thoughtfully selected party souvenirs.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-4">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <i class="fas fa-broom"></i>
-                                <h5 class="card-title">Cleaning Services</h5>
-                                <p class="card-text">
-                                    Keeping spaces impeccably clean for a fresh and inviting environment.
-                                </p>
-                            </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-briefcase"></i>
+                            <h5 class="card-title">Professional and Honest</h5>
+                            <p class="card-text">We pride ourselves on professionalism and honesty. Every task is
+                                approached with a high level of professionalism, ensuring clear communication and
+                                responsible practices. Choose us for errands executed with integrity.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+    </section>
 
-        <div id="contact" class="contact container">
-            <div class="row">
-                <div class="contact_title">
-                    <h3>Our Contacts</h3>
+    <div id="about" class="about container">
+        <div class="row mt-4">
+            <div class="about_title">
+                <h3>About Us</h3>
+                <p class="about_details">Meet our team of proffessionals</p>
+            </div>
+
+            <div class="col-md-3 about_desc">
+                <div class="staffs_0">
+                    <img src="./images/profile-pic_5.png" alt="" srcset="" width="300">
+                    <h4>Blessing Solomon</h4>
+                    <p>C. E. O</p>
                 </div>
-                <div class="col mb-6 social_contact">
+                <div class="vission_miss">
+                    <h4 class="miss_title">Vission Statements</h4>
                     <ul>
-                        <li><i class="fab fa-facebook"></i><a href="https://web.facebook.com/groups/914959340227244" target="_blank"
-                                class="cont_text fk_contact">Swift Errands Official Facebook Page</a></li>
-                        <li><i class="fab fa-twitter"></i><a href="https://twitter.com/Swift_errands" target="_blank"
-                                class="cont_text twr_contact">Swift_errands@twitter.com</a></li>
-                        <li><i class="fas fa-envelope"></i><a href="mailto:yvonnesolomon@gmail.com"
-                                class="cont_text email_contact">yvonnesolomon@gmail.com</a></li>
-                        <li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/company/swift-errands" target="_blank"
-                                class="cont_text lkn_contact">Swift_errands@linkedin.com</a></li>
-                        <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/Swift_errands" target="_blank"
-                                class="cont_text ins_contact">Swift_errands@instagram.com</a></li>
-                        <li><i class="fab fa-whatsapp"></i><a href="https://wa.me/2348067863154" target="_blank"
-                                class="cont_text wh_contact">+2348067863154</a></li>
-                        <li><i class="fab fa-whatsapp"></i><a href="https://wa.me/2348158779919" target="_blank"
-                                class="cont_text wh_contact">+2348158779919</a></li>
-                        <li><i class="fas fa-phone-alt"></i><span class="cont_text ph_contact">08067863154, 08158779919</span></li>
-                        <li><i class="fas fa-map-marker-alt">
-                                <span class="addr_contact">
-                                    <p class="cont_text_addr">
-                                        Genesis Hotel, Ogunmuyiwa Street, Chairman Bust-Stop, Oga-Oloye  
-                                    Estate, Igbogbo/Bayeku Road, Ikorodu, Lagos State.
-                                    </p>
-                                </span>
-                            </i>
-                        </li>      
+                        <li>Safety and Security Vission
+                            <p>To create an inclusive and accessible errand service, ensuring that everyone, regardless
+                                of ability or background, can benefit from our assistance.</p>
+                        </li>
+
+                        <li>Time-Saving Vision
+                            <p>To be the ultimate time-saving solution, helping our clients reclaim valuable time by
+                                efficiently handling their errands and tasks.</p>
+                        </li>
+
+                        <li>Safety and Security Vision</li>
+                        <p>To prioritize the safety and security of our clients and their belongings, ensuring a
+                            trustworthy and secure experience with every errand.</p>
+                        <li>Global Expansion Vision</li>
+                        <p>To expand our errand services globally, connecting people across borders and cultures through
+                            a seamless and reliable platform.</p>
                     </ul>
+
+                    <div class="about_title_2">
+                        <p class="">Meet our team of proffessionals</p>
+                    </div>
                 </div>
 
-                <div class="col mb-6 form_section">
-                    <div class="form_title">
-                            <h3>Message us</h3>
-                            <p>We will reply with haste</p>
-                    </div>
-                    <form class="form_field" action="https://formsubmit.co/yvonnesolomon@gmail.com" method="post">
-                        <input type="hidden" name="_next" value="https://ajuwon2021.github.io/swift_errands//thank_you.html">
-                        <!-- Update the redirect URL after form submission -->
-                        <input type="hidden" name="_subject" value="You have a new Message">
-                        <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_template" value="table">
 
-                        <label for="fname">First Name</label>
-                        <input type="text" name="fname" id="fname" class="fname for_fl" placeholder="Tell us your first name">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" class="email for_fl" placeholder="Enter your valid email">
-                        <label for="message">Your Message</label>
-                        <textarea name="message" id="" cols="30" rows="10" class="for_fl" placeholder="Enter your message here..."></textarea>
+            </div>
+            <div class="col-md-9 about_profile">
+                <div class="staffs_2">
+                    <img src="./images/profile_pics.png" alt="" srcset="" width="300">
+                    <h4>Folarin Ajuwon</h4>
+                    <p>Chief Accountant</p>
+                </div>
+                <div class="staffs_3">
+                    <img src="./images/olaleye.png" alt="" srcset="" width="300">
+                    <h4>Micheal Olaleye</h4>
+                    <p>Sourcing Analyst</p>
+                </div>
+                <div class="staffs_4">
+                    <img src="./images/logistics.png" alt="" srcset="" width="300">
+                    <h4>Temilola Busari</h4>
+                    <p>Logistics Manager</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                        <div class="col-lg-12 text-center">
-                            <button id="sendMessageButton" class="sim-btn hvr-bounce-to-top" type="submit">Send Message</button>
+    <div id="services" class="services container">
+        <div class="row">
+            <div class="services_title">
+                <h3>Our Services</h3>
+            </div>
+
+            <div class="row row_card row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fas fa-shopping-cart"></i>
+                            <h5 class="card-title">Grocery Shopping</h5>
+                            <p class="card-text">
+                                Expertly curating your grocery list for a seamless shopping experience.
+                            </p>
                         </div>
-                    </form>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fas fa-utensils"></i>
+                            <h5 class="card-title">Foodstuff Buying</h5>
+                            <p class="card-text">
+                                Sourcing quality foodstuff to elevate your culinary delights.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fas fa-home"></i>
+                            <h5 class="card-title">Household Items Shopping</h5>
+                            <p class="card-text">
+                                Providing convenience by handling your household essentials shopping
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fas fa-briefcase"></i>
+                            <h5 class="card-title">Office Items</h5>
+                            <p class="card-text">
+                                Supplying essential office items to keep your workspace efficient and well-equipped.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fas fa-gift"></i>
+                            <h5 class="card-title">Party Souvenirs</h5>
+                            <p class="card-text">
+                                Adding a touch of celebration with thoughtfully selected party souvenirs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <i class="fas fa-broom"></i>
+                            <h5 class="card-title">Cleaning Services</h5>
+                            <p class="card-text">
+                                Keeping spaces impeccably clean for a fresh and inviting environment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="contact container">
+        <div class="row">
+            <div class="contact_title">
+                <h3>Our Contacts</h3>
+            </div>
+            <div class="col mb-6 social_contact">
+                <ul>
+                    <li><i class="fab fa-facebook"></i><a href="https://web.facebook.com/groups/swiftserrands/"
+                            target="_blank" class="cont_text fk_contact">Swift-Errands Facebook</a></li>
+                    <li><i class="fas fa-envelope"></i><a href="mailto:swifterrands24@ygmail.com"
+                            class="cont_text email_contact">swifterrands24@ygmail.com</a></li>
+                    <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/swift_errandss/"
+                            target="_blank" class="cont_text ins_contact">swift_errandss</a></li>
+                    <li><i class="fab fa-whatsapp"></i><a href="https://wa.me/2348067863154" target="_blank"
+                            class="cont_text wh_contact">+2348067863154</a></li>
+                    <li><i class="fab fa-whatsapp"></i><a href="https://wa.me/2348158779919" target="_blank"
+                            class="cont_text wh_contact">+2348158779919</a></li>
+                    <li><i class="fas fa-phone-alt"></i><span class="cont_text ph_contact">08067863154,
+                            08158779919</span></li>
+                    <li><i class="fas fa-map-marker-alt">
+                            <span class="addr_contact">
+                                <p class="cont_text_addr">
+                                    By Genesis Hotel, Ogunmuyiwa Street, Chairman Bust-Stop, Oga-Oloye
+                                    Estate, Igbogbo/Bayeku Road, Ikorodu, Lagos State.
+                                </p>
+                            </span>
+                        </i>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col mb-6 form_section">
+                <div class="form_title">
+                    <h3>Message us</h3>
+                    <p>We will reply with haste</p>
+                </div>
+                <form action="https://formsubmit.co/swifterrands24@gmail.com" method="POST">
+                    <input type="hidden" name="_next"
+                        value="https://ajuwon2021.github.io/swift_errands//thank_you.html">
+                    <!-- Update the redirect URL after form submission -->
+                    <input type="hidden" name="_subject" value="You have a new Message">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname" class="fname for_fl"
+                        placeholder="Tell us your first names">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="email for_fl"
+                        placeholder="Enter your valid email">
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="" cols="30" rows="10" class="for_fl"
+                        placeholder="Enter your message here..."></textarea>
+
+                    <div class="col-lg-12 text-center">
+                        <button id="sendMessageButton" class="sim-btn hvr-bounce-to-top" type="submit">Send
+                            Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer container-fluid">
+        <div class="row street_map">
+            <div id="marker" class="col mb-12 google_map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31707.193783478662!2d3.4978561558505974!3d6.597205227371455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bef1c0c0c51d1%3A0x3f770da3ada5b08!2sGenesis%20guest%20house!5e0!3m2!1sen!2sng!4v1704933121863!5m2!1sen!2sng"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="container-fluid footer_card">
+            <div class="row mt-4">
+                <div class="col-md-6 footer_order_1 mb-4">
+                    <div class="card">
+                        <div class="row card-body">
+                            <div class="col-md-6 link_1">
+                                <ul>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="acontact">Contact</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-6 link_2">
+                                <ul>
+                                    <li><a href="#">Gallery</a></li>
+                                    <li><a href="#">Reviews</a></li>
+                                    <li><a href="#contact">Get in Touch</a></li>
+                                    <li><a href="https://wa.me/2348158779919">Chat with Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 footer_order_2 mb-4">
+                    <div class="card">
+                        <div class="row card-body">
+                            <ul class="col-md-6 media_1">
+                                <li><a href="https://web.facebook.com/groups/swiftserrands/" target="_blank"
+                                        rel="noopener noreferrer"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="tel:+234 806 7863 154" rel="noopener noreferrer"><i
+                                            class="fas fa-phone-alt"></i></a></li>
+                                <li><a href="https://wa.me/2348067863154" target="_blank" rel="noopener noreferrer"><i
+                                            class="fab fa-whatsapp"></i></a></li>
+                            </ul>
+
+                            <ul class="col-md-6 media_2">
+                                <li><a href="https://www.instagram.com/swift_errandss/" target="_blank"
+                                        rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="mailto:swifterrands24@ygmail.com" target="_blank"
+                                        rel="noopener noreferrer"><i class="fas fa-envelope"></i></a></li>
+                                <li><a href="#marker" rel="noopener noreferrer"><i
+                                            class="fas fa-map-marker-alt"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="footer container-fluid">
-            <div class="row street_map">
-                <div id="marker" class="col mb-12 google_map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31707.193783478662!2d3.4978561558505974!3d6.597205227371455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bef1c0c0c51d1%3A0x3f770da3ada5b08!2sGenesis%20guest%20house!5e0!3m2!1sen!2sng!4v1704933121863!5m2!1sen!2sng"
-                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-        
-            <div class="container-fluid footer_card">
-                <div class="row mt-4">
-                    <div class="col-md-6 footer_order_1 mb-4">
-                        <div class="card">
-                            <div class="row card-body">
-                                <div class="col-md-6 link_1">
-                                    <ul>
-                                        <li><a href="#home">Home</a></li>
-                                        <li><a href="#about">About</a></li>
-                                        <li><a href="acontact">Contact</a></li>
-                                        <li><a href="#services">Services</a></li>
-                                        <li><a href="#">FAQ</a></li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="col-md-6 link_2">
-                                    <ul>
-                                        <li><a href="#">Gallery</a></li>
-                                        <li><a href="#">Reviews</a></li>
-                                        <li><a href="#contact">Get in Touch</a></li>
-                                        <li><a href="https://wa.me/2348158779919">Chat with Us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 footer_order_2 mb-4">
-                        <div class="card">
-                            <div class="row card-body">
-                                <ul class="col-md-6 media_1">
-                                    <li><a href="https://web.facebook.com/groups/914959340227244" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a></li>
-                                    <li><a href="tel:+234 806 7863 154" rel="noopener noreferrer"><i class="fas fa-phone-alt"></i></a></li>
-                                    <li><a href="https://wa.me/2348067863154" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a></li>
-                                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
-                                </ul>
-                                
-                                <ul class="col-md-6 media_2">
-                                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="mailto:yvonnesolomon@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a></li>
-                                    <li><a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#marker" rel="noopener noreferrer"><i class="fas fa-map-marker-alt"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer_right">
-                <p>&copy; 2024 Swift Errands | Made by <span class="copy_tech"><a href="#">Brim-Tech Concepts</a></span></p>
-            </div>
+        <div class="footer_right">
+            <p>&copy; 2024 Swift Errands | Made by <span class="copy_tech"><a href="#">Brim-Tech Concepts</a></span></p>
         </div>
-        <!-- Boostrap script link -->
-        <script src="./js/bootstrap.bundle.min.js"></script>
-    </body>
+    </div>
+    <!-- Boostrap script link -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
